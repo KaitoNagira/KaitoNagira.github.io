@@ -3,64 +3,90 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kaito Nagira | Portfolio</title>
+
+<title>柳樂 海翔 | Portfolio</title>
+
+<meta name="description" content="松江工業高等専門学校で機械工学を学ぶ柳樂海翔のポートフォリオ。研究活動、隼章プロジェクト、Fuji Project、地域活動を紹介しています。">
 
 <style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Segoe UI", sans-serif;
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.8;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
 .hero{
-    background-image: url("header.png");
-    background-size: cover;
-    background-position: center;
-    height: 320px;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
+    background-image:url("header.png");
+    background-size:cover;
+    background-position:center;
+    height:420px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:15px;
+    overflow:hidden;
+    margin-bottom:30px;
 }
 
 .hero-text{
-    background: rgba(0,0,0,0.45);
-    color: white;
-    padding: 25px 40px;
-    border-radius: 12px;
-    text-align: center;
+    background:rgba(0,0,0,0.5);
+    color:white;
+
+    padding:30px 50px;
+    border-radius:15px;
+    text-align:center;
 }
 
 .hero-text h1{
-    margin:0;
-    font-size:48px;
-    color:white;
+    font-size:52px;
+    margin-bottom:10px;
 }
 
 .hero-text p{
-    margin-top:10px;
     font-size:22px;
-}
-    body{
-    font-family: Arial,sans-serif;
-    max-width:900px;
-    margin:auto;
-    padding:30px;
-    background:#f7f7f7;
-    line-height:1.8;
 }
 
 section{
     background:white;
-    padding:25px;
+    padding:30px;
     margin-bottom:25px;
-    border-radius:12px;
-    box-shadow:0 3px 10px rgba(0,0,0,0.1);
-}
+    border-radius:15px;
 
-h1{
-    color:#0b5394;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
 }
 
 h2{
+    margin-bottom:15px;
     color:#0b5394;
     border-bottom:2px solid #ddd;
-    padding-bottom:5px;
+    padding-bottom:8px;
+}
+
+.project{
+    background:#f3f8ff;
+    padding:20px;
+    border-radius:12px;
+    margin-top:15px;
+}
+
+.project h3{
+    margin-bottom:10px;
 }
 
 a{
@@ -73,93 +99,143 @@ a:hover{
     text-decoration:underline;
 }
 
-.project{
-    margin:15px 0;
-    padding:15px;
-    background:#f3f8ff;
-    border-radius:10px;
+.footer{
+    text-align:center;
+    color:#666;
+    margin:50px 0 20px;
 }
-</style>
 
+</style>
 </head>
 
 <body>
-    <div class="hero">
+
+<div class="container">
+
+<div class="hero">
     <div class="hero-text">
-        <h1>Kaito Nagira</h1>
-        <p>Engineering × Technology × Challenge</p>
+        <h1>柳樂 海翔</h1>
+        <p>Kaito Nagira</p>
+        <p>Mechanical Engineering × Research × Technology</p>
     </div>
 </div>
 
 <section>
 
-<p><strong>所属</strong></p>
-<p>
-松江工業高等専門学校 機械工学科
-</p>
+<h2>Profile</h2>
 
 <p>
-ボーイスカウト島根連盟
+松江工業高等専門学校で機械工学を学んでいます。
+技術開発、研究活動、国際交流に関心を持ち、工学と社会を結び付けるプロジェクトに取り組んでいます。
 </p>
 
-</section>
-
-<section>
-
-<h2>Research Projects</h2>
-
-<div class="project">
-<h3>
-<a href="hayabusa.html">
-hayabusa Project
-</a>
-</h3>
-
-<p>
-農業分野における人手不足解消に向けたスマート農業技術に関する調査研究
-</p>
-
-</div>
-
-<div class="project">
-<h3>
-🗻 Fuji Project
-</h3>
-
-<p>
-韓国の若者における日本の製造業及び技術力に対する認識に関する研究
-</p>
-
-<p>
-Coming Soon...
-</p>
-
-</div>
-
-</section>
-
-<section>
-
-<h2>Publications</h2>
+<br>
 
 <ul>
-<li>Hayabusa Project Report（2025）</li>
+<li>松江工業高等専門学校 機械工学科</li>
+<li>ボーイスカウト島根連盟</li>
+<li>研究活動・地域活動・国際交流活動</li>
 </ul>
 
 </section>
 
 <section>
 
-<h2>Contact</h2>
+<h2>Projects</h2>
+
+<div class="project">
+
+<h3>
+<a href="hayabusa.html">
+隼プロジェクト
+</a>
+</h3>
+
+<p>
+農業分野における人手不足解消に向けたスマート農業技術に関する調査研究。
+</p>
+
+<p>
+ボーイスカウト活動を背景として実施した研究プロジェクト。
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>富士プロジェクト</h3>
+
+<p>
+韓国の青少年における日本の製造業および技術力に対する認識に関する研究。
+</p>
+
+<p>
+今後実施予定の国際研究プロジェクト。
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>🏙 MATSUE RE PROJECT</h3>
+
+<p>
+高校生が創る理想のまちをテーマとした地域活動。
+</p>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Research & Publications</h2>
+
+<ul>
+
+<li>
+<a href="HayabusaReport_v1.0.pdf
+Hayabusa Project Report (2025)
+</a>
+</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Research Interests</h2>
+
+<ul>
+<li>機械工学</li>
+<li>スマート農業</li>
+<li>製造業研究</li>
+<li>国際比較調査</li>
+<li>技術政策</li>
+<li>地域創生</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Links</h2>
 
 <p>
 GitHub :
-<a href="https://github.com/KaitoNagira">
+<a href="https://github.com/KaitoNagira" target="_blank">
 github.com/KaitoNagira
 </a>
 </p>
 
 </section>
+
+<div class="footer">
+© 2026 Kaito Nagira
+</div>
+
+</div>
 
 </body>
 </html>
